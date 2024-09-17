@@ -1,0 +1,79 @@
+input[type="text"]{
+    width: 50%;
+}
+
+input[type="password"]{
+    width: 50%;
+}
+
+a{
+    text-decoration: none;
+}
+
+iframe{
+    width: 90%;
+    height: 500px;
+}
+
+textarea{
+    width: 50%;
+}
+
+.nav-link{
+    color: white;
+    text-decoration: none;
+}
+
+.nav-link:hover{
+    color: black;
+}
+
+.vermelho{
+    color: red;
+    text-align: center;
+}
+
+.caixa{
+    background-color: rgba(59, 34, 34, 0.432);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 75%;
+}
+
+table, th, td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    margin: auto;
+    text-align: center;
+}
+
+th{
+    text-transform: uppercase;
+    background-color: rgba(111, 5, 19, 0.1);
+}
+
+th, td{
+    padding: 10px 5px;
+}
+
+table{
+    width: 90%;
+}
+
+.copyright{
+    background-color: red;
+    color: black;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.copyright > a{
+    text-decoration: none !important;
+    color: black;
+}
+
+footer{
+    margin-top: 100px;
+}
